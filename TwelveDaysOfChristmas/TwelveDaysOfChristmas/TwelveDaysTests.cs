@@ -33,6 +33,14 @@ namespace TwelveDaysOfChristmas
             var song = tweleveDays.Sing(3);
             Assert.AreEqual("Three french hens", song);
         }
+
+        [Test]
+        public void FourthDayOfChristmas_ShouldReturn_FourCallingBirds()
+        {
+            var tweleveDays = new TwelveDaysofChristmas();
+            var song = tweleveDays.Sing(4);
+            Assert.AreEqual("Four calling birds", song);
+        }
     }
 
     public class TwelveDaysofChristmas
