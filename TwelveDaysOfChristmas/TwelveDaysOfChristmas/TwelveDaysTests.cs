@@ -46,7 +46,7 @@ namespace TwelveDaysOfChristmas
         public void FithDayOfChristmas_ShouldReturn_FiveGoldRings()
         {
             var tweleveDays = new TwelveDaysofChristmas();
-            var song = tweleveDays.Sing(4);
+            var song = tweleveDays.Sing(5);
             Assert.AreEqual("Five Gold Rings", song);
         }
     }
