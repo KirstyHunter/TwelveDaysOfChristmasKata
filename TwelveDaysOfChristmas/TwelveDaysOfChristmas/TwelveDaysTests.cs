@@ -31,7 +31,13 @@ namespace TwelveDaysOfChristmas
     {
         public string Sing(int day)
         {
-            return "a partridge in a pear tree";
+            if(day == 1)
+            {
+                return "a partridge in a pear tree";
+            }
+
+            return "Two turtle doves";
+            
         }
     }
 }
