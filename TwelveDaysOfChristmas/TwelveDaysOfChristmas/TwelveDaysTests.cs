@@ -41,6 +41,14 @@ namespace TwelveDaysOfChristmas
             var song = tweleveDays.Sing(4);
             Assert.AreEqual("Four calling birds", song);
         }
+
+        [Test]
+        public void FithDayOfChristmas_ShouldReturn_FiveGoldRings()
+        {
+            var tweleveDays = new TwelveDaysofChristmas();
+            var song = tweleveDays.Sing(4);
+            Assert.AreEqual("Five Gold Rings", song);
+        }
     }
 
     public class TwelveDaysofChristmas
@@ -49,7 +57,8 @@ namespace TwelveDaysOfChristmas
         {
             "a partridge in a pear tree",
             "Two turtle doves",
-            "Three french hens"
+            "Three french hens",
+            "Four calling birds"
         };
 
         public string Sing(int day)
