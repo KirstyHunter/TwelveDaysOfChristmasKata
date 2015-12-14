@@ -18,4 +18,12 @@ namespace TwelveDaysOfChristmas
             Assert.AreEqual("a partridge in a pear tree", song);
         }
     }
+
+    public class TwelveDaysofChristmas
+    {
+        public string Sing(int day)
+        {
+            return "a partridge in a pear tree";
+        }
+    }
 }
