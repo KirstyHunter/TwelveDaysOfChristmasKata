@@ -37,15 +37,16 @@ namespace TwelveDaysOfChristmas
 
     public class TwelveDaysofChristmas
     {
+        private string[] lyrics = new[]
+        {
+            "a partridge in a pear tree",
+            "Two turtle doves",
+            "Three french hens"
+        };
+
         public string Sing(int day)
         {
-            if(day == 1)
-            {
-                return "a partridge in a pear tree";
-            }
-
-            return "Two turtle doves";
-            
+            return lyrics[day - 1];
         }
     }
 }
