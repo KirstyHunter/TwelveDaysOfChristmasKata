@@ -58,7 +58,8 @@ namespace TwelveDaysOfChristmas
             "a partridge in a pear tree",
             "Two turtle doves",
             "Three french hens",
-            "Four calling birds"
+            "Four calling birds",
+            "Five Gold Rings"
         };
 
         public string Sing(int day)
