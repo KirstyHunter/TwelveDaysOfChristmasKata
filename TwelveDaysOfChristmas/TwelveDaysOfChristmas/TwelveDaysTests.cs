@@ -25,6 +25,14 @@ namespace TwelveDaysOfChristmas
             var song = tweleveDays.Sing(2);
             Assert.AreEqual("Two turtle doves", song);
         }
+
+        [Test]
+        public void ThirdDayOfChristmas_ShouldReturn_ThreeFrenchHens()
+        {
+            var tweleveDays = new TwelveDaysofChristmas();
+            var song = tweleveDays.Sing(3);
+            Assert.AreEqual("Three french hens", song);
+        }
     }
 
     public class TwelveDaysofChristmas
